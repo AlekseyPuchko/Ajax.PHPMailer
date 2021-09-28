@@ -13,7 +13,9 @@
                 <form action="#" id="form" class="form__body">
                     <h1 class="form__title">Отправка данных на почту</h1>
                     <div class="form__item">
-                        <label for="formName" class="form__label">Имя*</label>
+                        <label for="formName" class="form__label _req"
+                            >Имя</label
+                        >
                         <input
                             id="formName"
                             type="text"
@@ -22,7 +24,7 @@
                         />
                     </div>
                     <div class="form__item">
-                        <label for="formEmail" class="form__label"
+                        <label for="formEmail" class="form__label _req _email"
                             >Email*</label
                         >
                         <input
@@ -33,7 +35,7 @@
                         />
                     </div>
                     <div class="form__item">
-                        <div class="form_label">Левша или Правша?</div>
+                        <div class="form__label">Левша или Правша?</div>
                         <div class="options">
                             <div class="options__item">
                                 <input
@@ -100,7 +102,7 @@
                         </div>
                     </div>
                     <div class="form__item">
-                        <div class="checkbox">
+                        <div class="checkbox _req">
                             <input
                                 id="formAgreement"
                                 type="checkbox"
@@ -123,5 +125,6 @@
                 </form>
             </div>
         </div>
+        <script src="/js/script.js"></script>
     </body>
 </html>
